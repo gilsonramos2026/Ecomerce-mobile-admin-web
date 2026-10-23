@@ -1,9 +1,9 @@
 package com.eccomerce.entity;
 
 public enum OrderStatus {
-    Pendente,
-    Pago,
-    Enviado,
-    Entregue,
+    PENDENTE,
+    PAGO,
+    ENVIADO,
+    EMTREGUE,
     CANCELADO
 }
