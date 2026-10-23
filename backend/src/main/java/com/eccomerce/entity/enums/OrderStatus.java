@@ -1,4 +1,4 @@
-package com.eccomerce.entity;
+package com.eccomerce.entity.enums;
 
 public enum OrderStatus {
     PENDENTE,

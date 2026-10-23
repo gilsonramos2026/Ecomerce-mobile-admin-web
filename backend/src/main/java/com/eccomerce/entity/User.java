@@ -1,5 +1,6 @@
 package com.eccomerce.entity;
 
+import com.eccomerce.entity.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 
