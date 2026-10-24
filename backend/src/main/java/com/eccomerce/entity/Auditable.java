@@ -23,5 +23,5 @@ public abstract class Auditable {
 
     @LastModifiedDate
     @Column(name = "updated_at", nullable = false)
-    private Instant updatAt;
+    private Instant updatedAt;
 }
