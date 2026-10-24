@@ -1,4 +1,10 @@
 package com.eccomerce.exception;
 
-public class ResourceNotFoundException {
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+    public static ResourceNotFoundException of(String entity, Object id) {
+        return new ResourceNotFoundException(entity + " não encontrado(a) com id: " + id);
+    }
 }
